@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c414f506ff096594baa0e95cb40a748c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7000655345960641297
+    second: Montanhas_0
+  - first:
+      213: -324137243395185859
+    second: Montanhas_1
+  - first:
+      213: -2897326790809437823
+    second: Montanhas_2
+  - first:
+      213: 9068214331053536001
+    second: Montanhas_3
+  - first:
+      213: 4450529048786777979
+    second: Montanhas_4
+  - first:
+      213: -36056427031304141
+    second: Montanhas_5
+  - first:
+      213: -3294473601853134198
+    second: Montanhas_6
+  - first:
+      213: 834727001159138600
+    second: Montanhas_7
+  - first:
+      213: 8857394661901258896
+    second: Montanhas_8
+  - first:
+      213: 7034090547701126445
+    second: Montanhas_9
+  - first:
+      213: -4461243913007871944
+    second: Montanhas_10
+  - first:
+      213: -7520438589508625140
+    second: Montanhas_11
+  - first:
+      213: 975118848940262349
+    second: Montanhas_12
+  - first:
+      213: -5694646845925066321
+    second: Montanhas_13
+  - first:
+      213: 2059362761313683155
+    second: Montanhas_14
+  - first:
+      213: -2025162410638336545
+    second: Montanhas_15
+  - first:
+      213: -4450252496106570173
+    second: Montanhas_16
+  - first:
+      213: 5813107061890392581
+    second: Montanhas_17
+  - first:
+      213: 1437427783552747550
+    second: Montanhas_18
+  - first:
+      213: -5019692195287123700
+    second: Montanhas_19
+  - first:
+      213: -4557493225715934453
+    second: Montanhas_20
+  - first:
+      213: 5695847364549378418
+    second: Montanhas_21
+  - first:
+      213: 6808955797726320488
+    second: Montanhas_22
+  - first:
+      213: 8376237129492235896
+    second: Montanhas_23
+  - first:
+      213: 7926785338828777400
+    second: Montanhas_24
+  - first:
+      213: 9143251245765748614
+    second: Montanhas_25
+  - first:
+      213: -3048396364972844478
+    second: Montanhas_26
+  - first:
+      213: -3941801867431470905
+    second: Montanhas_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Montanhas_0
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 983
+        width: 112
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec931dcd0da8de90800000000000000
+      internalID: -7000655345960641297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_1
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1014
+        width: 70
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33a4fcf4ee608bf0800000000000000
+      internalID: -324137243395185859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_2
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1017
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189b49b62a0aac7d0800000000000000
+      internalID: -2897326790809437823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_3
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 999
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1037d8d73e4c8dd70800000000000000
+      internalID: 9068214331053536001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 949
+        width: 143
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b773e77079473cd30800000000000000
+      internalID: 4450529048786777979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 952
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338ede2eed6ef7ff0800000000000000
+      internalID: -36056427031304141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 881
+        width: 113
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a64a7c6bda742d0800000000000000
+      internalID: -3294473601853134198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_7
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 949
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d7484f8cb859b00800000000000000
+      internalID: 834727001159138600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_8
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 927
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090d01a3489cbea70800000000000000
+      internalID: 8857394661901258896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_9
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 907
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2598adb51c1e9160800000000000000
+      internalID: 7034090547701126445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_10
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 898
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838cacc3c4a7612c0800000000000000
+      internalID: -4461243913007871944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_11
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 951
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dd235a2f802a790800000000000000
+      internalID: -7520438589508625140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_12
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 945
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc34fdc3d61588d00800000000000000
+      internalID: 975118848940262349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_13
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 922
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9765b7ddc88f0b0800000000000000
+      internalID: -5694646845925066321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_14
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 913
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d605cb3583549c10800000000000000
+      internalID: 2059362761313683155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_15
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 919
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd9d6d648d25e3e0800000000000000
+      internalID: -2025162410638336545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_16
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 907
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eb5c8eee68d32c0800000000000000
+      internalID: -4450252496106570173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 911
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502aa49d21e4ca050800000000000000
+      internalID: 5813107061890392581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_18
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 901
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1840fc04f4c2f310800000000000000
+      internalID: 1437427783552747550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_19
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 903
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c093c1a3b88765ab0800000000000000
+      internalID: -5019692195287123700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_20
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 895
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bd3fece0880c0c0800000000000000
+      internalID: -4557493225715934453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 897
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2718fca0007bb0f40800000000000000
+      internalID: 5695847364549378418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_22
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 887
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86750def8354e7e50800000000000000
+      internalID: 6808955797726320488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_23
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 884
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87682d14a4f5e3470800000000000000
+      internalID: 8376237129492235896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_24
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 895
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7e9ab8449910e60800000000000000
+      internalID: 7926785338828777400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_25
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 887
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687e304a09a53ee70800000000000000
+      internalID: 9143251245765748614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_26
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 886
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a933b38abe1b5d0800000000000000
+      internalID: -3048396364972844478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Montanhas_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 869
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c896cc0618eb49c0800000000000000
+      internalID: -3941801867431470905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Montanhas_0: -7000655345960641297
+      Montanhas_1: -324137243395185859
+      Montanhas_10: -4461243913007871944
+      Montanhas_11: -7520438589508625140
+      Montanhas_12: 975118848940262349
+      Montanhas_13: -5694646845925066321
+      Montanhas_14: 2059362761313683155
+      Montanhas_15: -2025162410638336545
+      Montanhas_16: -4450252496106570173
+      Montanhas_17: 5813107061890392581
+      Montanhas_18: 1437427783552747550
+      Montanhas_19: -5019692195287123700
+      Montanhas_2: -2897326790809437823
+      Montanhas_20: -4557493225715934453
+      Montanhas_21: 5695847364549378418
+      Montanhas_22: 6808955797726320488
+      Montanhas_23: 8376237129492235896
+      Montanhas_24: 7926785338828777400
+      Montanhas_25: 9143251245765748614
+      Montanhas_26: -3048396364972844478
+      Montanhas_27: -3941801867431470905
+      Montanhas_3: 9068214331053536001
+      Montanhas_4: 4450529048786777979
+      Montanhas_5: -36056427031304141
+      Montanhas_6: -3294473601853134198
+      Montanhas_7: 834727001159138600
+      Montanhas_8: 8857394661901258896
+      Montanhas_9: 7034090547701126445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

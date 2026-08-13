@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b563ed4f1308b84408536c1a47fe6458
+guid: 4b0c4f0b34507dd4c93ed187bb16e96a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3169835199270801381
-    second: PRIMEIRA_MONTANHA-removebg-preview_0
+      213: -5133412329262697850
+    second: Tanque_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PRIMEIRA_MONTANHA-removebg-preview_0
+      name: Tanque_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 615
-        height: 310
+        width: 1536
+        height: 978
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b103fe64eab7204d0800000000000000
-      internalID: -3169835199270801381
+      spriteID: 682bfac3fa472c8b0800000000000000
+      internalID: -5133412329262697850
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PRIMEIRA_MONTANHA-removebg-preview_0: -3169835199270801381
+      Tanque_0: -5133412329262697850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

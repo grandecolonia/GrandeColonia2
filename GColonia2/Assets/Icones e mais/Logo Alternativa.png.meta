@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2ba059a7214ddce4a99376efcd8d2bde
+guid: cecaa87ca2794ca48b6a418ec8c43691
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2465672972246756202
-    second: FUNDO ESTRELADO_0
+      213: 8076302963031574129
+    second: Logo Alternativa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FUNDO ESTRELADO_0
+      name: Logo Alternativa_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 845
+        x: 38
+        y: 13
+        width: 597
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69453f4de7b28cdd0800000000000000
-      internalID: -2465672972246756202
+      spriteID: 1768ee931cac41070800000000000000
+      internalID: 8076302963031574129
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FUNDO ESTRELADO_0: -2465672972246756202
+      Logo Alternativa_0: 8076302963031574129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

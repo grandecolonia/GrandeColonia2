@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: cd3c2f051bb11d04a98fa04b2dc1b40c
+guid: cf669404baf6747429fc7bc75a0bd6ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2268113555672827357
-    second: Design sem nome_0
+      213: 8253466683968714667
+    second: Sair M_0
+  - first:
+      213: -7932123754702058243
+    second: Sair M_1
+  - first:
+      213: 433312073553024906
+    second: Sair M_2
+  - first:
+      213: -4054534254700153107
+    second: Sair M_3
+  - first:
+      213: 816329046837123368
+    second: Sair M_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +112,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Design sem nome_0
+      name: Sair M_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 747
+        x: 272
+        y: 126
+        width: 1017
+        height: 358
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd5802c0345f97f10800000000000000
-      internalID: 2268113555672827357
+      spriteID: dfccb86a87f6be190800000000000000
+      internalID: -7932123754702058243
       vertices: []
       indices: 
       edges: []
@@ -135,7 +147,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Design sem nome_0: 2268113555672827357
+      Sair M_0: 8253466683968714667
+      Sair M_1: -7932123754702058243
+      Sair M_2: 433312073553024906
+      Sair M_3: -4054534254700153107
+      Sair M_4: 816329046837123368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
