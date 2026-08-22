@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour
 {
@@ -22,6 +23,21 @@ public void ControlarSom(float value) // metodo que passa o valor que o usuário
 // de volume
 {
     som.volume = value;
+}
+
+public void IniciarCutscene()
+{
+   SceneManager.LoadScene("05_Cutscene01");
+}
+
+public void Tutorial()
+{
+   SceneManager.LoadScene("04_Tutorial");
+}
+
+public void Creditos()
+{
+   SceneManager.LoadScene("03_Creditos");
 }
 
 public void Fechar() // metodo para o botão de sair
