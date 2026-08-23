@@ -4,31 +4,38 @@ using UnityEngine;
 
 public class RevelarNome : MonoBehaviour
 {
-    public TMP_Text texto; // variavel do tipo texto
+    // Elementos usados para controlar a revelação do nome.
+    public TMP_Text texto;
     public float velocidade = 0.1f;
+
+    // Impede que o mesmo nome seja revelado mais de uma vez.
     private bool jarevelado = false;
 
     void Start()
     {
-        texto.maxVisibleCharacters = 0; // propriedade que define a quantidade de letras a ser mostrada
+        // Começa com todas as letras do nome escondidas.
+        texto.maxVisibleCharacters = 0;
     }
 
-    public void Revelar() // metodo usado no script da abelha
+    public void Revelar()
     {
-        if (jarevelado) // se ja foi revelado, interrompe o metodo
+        // Interrompe o método caso o nome já tenha sido revelado.
+        if (jarevelado)
         {
             return;
         }
+
         jarevelado = true;
-        StartCoroutine(EscreverNome()); // ativa a função
+        StartCoroutine(EscreverNome());
     }
 
-    IEnumerator EscreverNome() // a função IEnumerator permite que você consiga dar um intervalo (tipo um timer) a qualquer momento
+    IEnumerator EscreverNome()
     {
-        for (int i = 0; i <= texto.text.Length; i++) // enquanto o texto não tiver revelado todos as letras
+        // Mostra as letras uma por uma, respeitando a velocidade configurada.
+        for (int i = 0; i <= texto.text.Length; i++)
         {
-            texto.maxVisibleCharacters = i; // mostra de acordo com o indice do for
-            yield return new WaitForSeconds(velocidade); // espera o tempo definido pela variavel pra revelar a proxima letra
+            texto.maxVisibleCharacters = i;
+            yield return new WaitForSeconds(velocidade);
         }
     }
 }

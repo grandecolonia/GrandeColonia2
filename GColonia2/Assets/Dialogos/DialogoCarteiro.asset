@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7abc918b63a7449ab18d9a494bab03, type: 3}
+  m_Name: DialogoCarteiro
+  m_EditorClassIdentifier: 
+  falas:
+  - nomePersonagem: Carteiro
+    rosto: {fileID: 0}
+    texto: Ei, garoto! Venha aqui um instante!
+  - nomePersonagem: Maxwell
+    rosto: {fileID: 0}
+    texto: Hm... Aconteceu alguma coisa, carteiro?
+  - nomePersonagem: Carteiro
+    rosto: {fileID: 0}
+    texto: "Ah, meu filho... Essas cartas s\xE3o muito importantes. Voc\xEA poderia
+      me ajudar a entreg\xE1-las antes de sair da colmeia? Minhas costas j\xE1 n\xE3o
+      s\xE3o mais as mesmas..."
+  - nomePersonagem: Carteiro
+    rosto: {fileID: 0}
+    texto: "Veja s\xF3. Cada carta tem uma cor diferente, e cada cor corresponde
+      a uma caixa de correio. Voc\xEA precisa colocar cada uma no lugar certo. Entendeu?"
+  - nomePersonagem: Maxwell
+    rosto: {fileID: 0}
+    texto: Pode deixar comigo! Vou entregar todas.
+  - nomePersonagem: Carteiro
+    rosto: {fileID: 0}
+    texto: "Conto com voc\xEA, garoto. E tome cuidado para n\xE3o misturar as cartas!"
