@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: ec58909db10bb32478a3d5272a952b3a
+guid: 382ef3cb9ae9ee8469c30f604fac36eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8171189081661670706
-    second: PersonagemFrente_0
-  - first:
-      213: 9116397968643004848
-    second: PersonagemFrente_1
-  - first:
-      213: -178874366640659352
-    second: PersonagemFrente_2
+      213: 3363465559523095881
+    second: MoldS_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -56,9 +50,9 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.48792267, y: 0.032436185}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 318, y: 13, z: 348, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -106,67 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PersonagemFrente_0
+      name: MoldS_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 1058
-        height: 1254
+        x: 23
+        y: 23
+        width: 1208
+        height: 1216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2358efc4d25e56170800000000000000
-      internalID: 8171189081661670706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PersonagemFrente_1
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 684
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b91f08d6a3f38e70800000000000000
-      internalID: 9116397968643004848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PersonagemFrente_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 71
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 864e5f416b2848df0800000000000000
-      internalID: -178874366640659352
+      spriteID: 94572a12b1e6dae20800000000000000
+      internalID: 3363465559523095881
       vertices: []
       indices: 
       edges: []
@@ -176,7 +126,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PersonagemFrente_0: 8171189081661670706
-      PersonagemFrente_1: 9116397968643004848
-      PersonagemFrente_2: -178874366640659352
+      MoldS_0: 3363465559523095881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

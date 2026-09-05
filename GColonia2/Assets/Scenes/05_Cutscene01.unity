@@ -594,6 +594,7 @@ MonoBehaviour:
   imagem8: {fileID: 21300000, guid: a1b97399c6277354aaf07bf4ef95f8c0, type: 3}
   imagem9: {fileID: 21300000, guid: 9ccda5b3d7b2e044197285d4b56bf2f9, type: 3}
   imagem10: {fileID: 21300000, guid: 8bad571b6a29e1745895dc5fe75e82dd, type: 3}
+  cenaDestino: 06_Fase1
 --- !u!4 &977748779
 Transform:
   m_ObjectHideFlags: 0
