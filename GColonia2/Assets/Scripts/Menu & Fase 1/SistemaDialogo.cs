@@ -103,6 +103,8 @@ public class SistemaDialogo : MonoBehaviour
 
     public void Avancar()
     {
+
+        Debug.Log("BOTÃO CHAMOU AVANCAR");
         if (dialogoAtual == null)
         {
             return;
