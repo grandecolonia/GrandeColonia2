@@ -227,6 +227,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -810,6 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1efe75869e4b264b9c71e8990784a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
   velocidadeTexto: 0.04
   tempoTexto: 3
   tempoImagem: 3
@@ -820,20 +822,32 @@ MonoBehaviour:
   etapas:
   - texto: "Maxwell:\n Ainda restam algumas cartas na mochila."
     imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
   - texto: "Maxwell: \nPelo visto, preciso entregar as pr\xF3ximas foras da colmeia.
       Bom, pelo menos assim eu posso ver os guardi\xF5es."
     imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
   - texto: "Maxwell ent\xE3o parte para novos horizontes fora da colmeia..."
     imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
   - texto: 
     imagem: {fileID: 21300000, guid: 34fa997dd3b860b4aab9c3a079f57ac9, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
   - texto: 
     imagem: {fileID: 21300000, guid: 1e14c3b0315442f45bf2519351c7ed13, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
   - texto: "Maxwell aprender\xE1 como a vida acontece mesmo quando os seus olhos
       n\xE3o est\xE3o vendo..."
     imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
   avancarCutscene: {fileID: -7170355178394980583, guid: 5b667034be5e84d4b80c0c529faf6857, type: 3}
-  cenaDestino: 13_Fase2
+  cenaDestino: 13_Cidade
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

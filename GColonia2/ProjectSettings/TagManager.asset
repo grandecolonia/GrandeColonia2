@@ -18,9 +18,9 @@ TagManager:
   - ParedeLabirinto
   - 
   - MiniMapa
-  - 
-  - 
-  - 
+  - NavMeshFloor
+  - Player
+  - Chao
   - 
   - 
   - 

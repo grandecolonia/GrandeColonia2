@@ -50,6 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/14_Cutscene03.unity
     guid: 4f6e1d4ca9be8ff418db65d5bf9e2914
+  - enabled: 1
+    path: Assets/Scenes/15_Labirinto.unity
+    guid: 87926cd0f74870242b2d87d01bdbcc3c
+  - enabled: 1
+    path: Assets/Scenes/16_Fase2.unity
+    guid: 97db3997672b03e44b5960946243fe49
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
