@@ -2,9 +2,16 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SistemaDialogo : MonoBehaviour
 {
+    [Header("Portão - Fase 3")]
+    public SpriteRenderer fundoCena;
+    public Sprite novoFundo;
+    public int falaParaTrocarFundo = -1;
+    public string proximaCena;
+
     [Header("Caixa de diálogo")]
 
     public GameObject caixaDialogo;
@@ -31,7 +38,7 @@ public class SistemaDialogo : MonoBehaviour
     // Guarda o personagem para bloquear seu movimento durante o diálogo.
     private MovimentoPersonagem jogador;
 
-    void Start()
+    void Awake()
     {
         // A caixa de diálogo começa escondida.
         caixaDialogo.SetActive(false);
@@ -73,6 +80,11 @@ public class SistemaDialogo : MonoBehaviour
 
         // Recupera e mostra os dados da fala atual.
         DialogoData.Fala fala = dialogoAtual.falas[falaAtual];
+
+        if (fundoCena != null && novoFundo != null && falaAtual == falaParaTrocarFundo)
+        {
+           fundoCena.sprite = novoFundo;
+        }
 
         nomePersonagem.text = fala.nomePersonagem;
         rosto.sprite = fala.rosto;
@@ -139,5 +151,10 @@ public class SistemaDialogo : MonoBehaviour
         texto.text = "";
 
         dialogoAtual = null;
+
+        if (!string.IsNullOrEmpty(proximaCena))
+        {
+            SceneManager.LoadScene(proximaCena);
+        }
     }
 }

@@ -8,6 +8,10 @@ TagManager:
   - PontoDireita
   - PontoEsquerda
   - Chao
+  - Particulas
+  - Agua
+  - Guarda
+  - ativarGuarda
   layers:
   - Default
   - TransparentFX

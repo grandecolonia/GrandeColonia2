@@ -56,6 +56,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/16_Fase2.unity
     guid: 97db3997672b03e44b5960946243fe49
+  - enabled: 1
+    path: Assets/Scenes/17_Cutscene03.unity
+    guid: 140ecbfd28115a648a5250ac32906670
+  - enabled: 1
+    path: Assets/Scenes/18_Esgoto.unity
+    guid: 59c1037819c6e334d86eeb86f7f373cb
+  - enabled: 1
+    path: "Assets/Scenes/19_Port\xE3o.unity"
+    guid: 28b3abf5eaa984e41bcde11401a5cce1
+  - enabled: 1
+    path: Assets/Scenes/20_CacaPalavras.unity
+    guid: 4a0711831c89dd040b49b28091fca8a2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
