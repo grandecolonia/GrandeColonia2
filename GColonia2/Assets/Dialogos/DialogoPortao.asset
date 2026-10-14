@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   falas:
   - nomePersonagem: Maxwell
-    rosto: {fileID: 0}
+    rosto: {fileID: 21300000, guid: eda16c3823f6dee48bd9600b52e3ec71, type: 3}
     texto: Senhor Jair?! Eu sinto muito pelo que houve com a sua escola...
   - nomePersonagem: Jair
-    rosto: {fileID: 0}
+    rosto: {fileID: 21300000, guid: 2ebe23ff995ed5d478496a4d7b87ae05, type: 3}
     texto: "N\xE3o h\xE1 tempo para lamenta\xE7\xF5es Maxwell, temos que impedir
       esses ditadores, mas quero saber se est\xE1 pronto de verdade, mostre o que
       voc\xEA sabe."

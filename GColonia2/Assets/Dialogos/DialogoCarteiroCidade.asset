@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   falas:
   - nomePersonagem: Carteiro
-    rosto: {fileID: 0}
+    rosto: {fileID: 21300000, guid: 80646548b14f28b4aa62509fd56e0cae, type: 3}
     texto: Oh, meu filho, muito obrigado por ter evitado a minha fadiga!
   - nomePersonagem: Carteiro
-    rosto: {fileID: 0}
+    rosto: {fileID: 21300000, guid: 80646548b14f28b4aa62509fd56e0cae, type: 3}
     texto: "O qu\xEA? Sobrou uma carta? \xC9 para voc\xEA?"
   - nomePersonagem: Carteiro
-    rosto: {fileID: 0}
+    rosto: {fileID: 21300000, guid: 80646548b14f28b4aa62509fd56e0cae, type: 3}
     texto: Sim, pode ficar!
