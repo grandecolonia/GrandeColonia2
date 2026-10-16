@@ -26,6 +26,12 @@ public class ConfiguracoesJogo : MonoBehaviour
     // Guarda a velocidade do jogo antes de abrir as opções.
     private float tempoAnterior = 1f;
 
+    [Header("Tamanho dos textos")]
+
+public float tamanhoPequeno = 30f;
+public float tamanhoNormal = 40f;
+public float tamanhoGrande = 50f;
+
     void Awake()
     {
         // Impede que existam dois menus de opções ao mesmo tempo.
@@ -107,6 +113,29 @@ public class ConfiguracoesJogo : MonoBehaviour
         AudioListener.volume = volumeLimitado;
         PlayerPrefs.SetFloat("VolumeGeral", volumeLimitado);
     }
+
+    public void EscolherTamanhoTexto(int opcao)
+{
+    // Salva o tamanho escolhido pelo jogador.
+    PlayerPrefs.SetInt("TamanhoTexto", Mathf.Clamp(opcao, 0, 2));
+    PlayerPrefs.Save();
+}
+
+public static float ObterTamanhoTexto()
+{
+    int opcao = PlayerPrefs.GetInt("TamanhoTexto", 1);
+
+    if (instancia == null)
+        return 40f;
+
+    if (opcao == 0)
+        return instancia.tamanhoPequeno;
+
+    if (opcao == 2)
+        return instancia.tamanhoGrande;
+
+    return instancia.tamanhoNormal;
+}
 
     public void EscolherCursor(int indice)
     {

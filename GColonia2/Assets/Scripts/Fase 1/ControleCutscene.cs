@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class ControleCutscene : MonoBehaviour
 {
@@ -49,7 +50,6 @@ public class ControleCutscene : MonoBehaviour
         yield return StartCoroutine(MostrarTexto(
             "É de conhecimento geral que as abelhas vivem em uma sociedade altamente organizada."
         ));
-
         yield return StartCoroutine(MostrarImagem(imagem1));
 
         // CUTSCENE 2
@@ -119,30 +119,147 @@ public class ControleCutscene : MonoBehaviour
         }
     }
 
-    IEnumerator MostrarTexto(string fala)
+
+
+IEnumerator MostrarTexto(string fala)
+{
+    clicou = false;
+    textoInicial.text = "";
+
+    yield return StartCoroutine(Fadein(texto));
+
+    bool terminou = false;
+
+    while (!terminou)
     {
-        // Prepara o novo texto antes de mostrá-lo.
-        clicou = false;
-        textoInicial.text = fala;
-        textoInicial.maxVisibleCharacters = 0;
+        // Recalcula as páginas com o tamanho atual da fonte.
+        float tamanhoAtual = textoInicial.fontSize;
+        List<string> paginas = DividirTexto(fala);
 
-        yield return StartCoroutine(Fadein(texto));
+        bool mudouTamanho = false;
 
-        // Caso o jogador tenha clicado durante o Fade In, mostra o texto inteiro.
-        if (clicou)
+        foreach (string pagina in paginas)
         {
-            textoInicial.maxVisibleCharacters = textoInicial.text.Length;
             clicou = false;
+            textoInicial.text = pagina;
+            textoInicial.ForceMeshUpdate();
+
+            int totalCaracteres = textoInicial.textInfo.characterCount;
+            textoInicial.maxVisibleCharacters = 0;
+
+            // Escreve a página letra por letra.
+            for (int i = 1; i <= totalCaracteres; i++)
+            {
+                if (textoInicial.fontSize != tamanhoAtual)
+                {
+                    mudouTamanho = true;
+                    break;
+                }
+
+                if (clicou)
+                {
+                    textoInicial.maxVisibleCharacters = totalCaracteres;
+                    clicou = false;
+                    break;
+                }
+
+                textoInicial.maxVisibleCharacters = i;
+                yield return new WaitForSecondsRealtime(velocidadeTexto);
+            }
+
+            if (mudouTamanho)
+                break;
+
+            // Espera o jogador avançar ou alterar a fonte.
+            while (!clicou)
+            {
+                if (textoInicial.fontSize != tamanhoAtual)
+                {
+                    mudouTamanho = true;
+                    break;
+                }
+
+                yield return null;
+            }
+
+            if (mudouTamanho)
+                break;
+
+            clicou = false;
+        }
+
+        if (!mudouTamanho)
+            terminou = true;
+        else
+            clicou = false;
+    }
+
+    yield return StartCoroutine(FadeOut(texto));
+}
+
+
+
+List<string> DividirTexto(string fala)
+{
+    List<string> paginas = new List<string>();
+
+    string[] palavras = fala.Split(new char[] { ' ', '\n', '\r', '\t' }, System.StringSplitOptions.RemoveEmptyEntries);
+    string paginaAtual = "";
+
+    float largura = textoInicial.rectTransform.rect.width - 30f;
+    float altura = textoInicial.rectTransform.rect.height - 30f;
+
+    foreach (string palavra in palavras)
+    {
+        string teste = string.IsNullOrEmpty(paginaAtual) ? palavra : paginaAtual + " " + palavra;
+
+        // Verifica quanto espaço o texto precisa ocupar.
+        Vector2 tamanho = textoInicial.GetPreferredValues(teste, largura, Mathf.Infinity);
+
+        if (tamanho.y > altura && !string.IsNullOrEmpty(paginaAtual))
+        {
+            paginas.Add(paginaAtual);
+            paginaAtual = palavra;
         }
         else
         {
-            yield return StartCoroutine(EscreverTexto());
+            paginaAtual = teste;
+        }
+    }
+
+    if (!string.IsNullOrEmpty(paginaAtual))
+    {
+        paginas.Add(paginaAtual);
+    }
+
+    return paginas;
+}
+
+
+IEnumerator EscreverTexto()
+{
+    // Começa com todas as letras escondidas.
+    textoInicial.ForceMeshUpdate();
+    int totalCaracteres = textoInicial.textInfo.characterCount;
+    textoInicial.maxVisibleCharacters = 0;
+
+    for (int i = 1; i <= totalCaracteres; i++)
+    {
+        // Se clicar, mostra toda a página de uma vez.
+        if (clicou)
+        {
+            textoInicial.maxVisibleCharacters = totalCaracteres;
+            clicou = false;
+            yield break;
         }
 
-        // Espera outro clique para passar para a imagem.
-        yield return StartCoroutine(EsperarClique());
-        yield return StartCoroutine(FadeOut(texto));
+        textoInicial.maxVisibleCharacters = i;
+        yield return new WaitForSeconds(velocidadeTexto);
     }
+}
+
+
+
 
 IEnumerator MostrarImagem(Sprite novaImagem)
 {
@@ -193,25 +310,6 @@ IEnumerator MostrarImagem(Sprite novaImagem)
         objeto.alpha = 1;
     }
 
-    IEnumerator EscreverTexto()
-    {
-        // Mostra as letras do texto uma por uma.
-        textoInicial.maxVisibleCharacters = 0;
-
-        for (int i = 0; i <= textoInicial.text.Length; i++)
-        {
-            // Um clique durante a escrita mostra imediatamente todo o texto.
-            if (clicou)
-            {
-                textoInicial.maxVisibleCharacters = textoInicial.text.Length;
-                clicou = false;
-                yield break;
-            }
-
-            textoInicial.maxVisibleCharacters = i;
-            yield return new WaitForSeconds(velocidadeTexto);
-        }
-    }
 
     IEnumerator FadeOut(CanvasGroup objeto)
     {
