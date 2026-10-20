@@ -773,65 +773,69 @@ MonoBehaviour:
   textoInicial: {fileID: 1567578018}
   imagemInicial: {fileID: 311888012}
   etapas:
-  - texto: "J\xE9ssica:\nFicamos felizes que tenha vindo.\n\nMaxwell: \nVindo aonde?!
-      E quem s\xE3o \u201Cvoc\xEAs\u201D?"
-    imagem: {fileID: 21300000, guid: f1f898ecb93b84d45956b7ca7d704224, type: 3}
+  - texto: "Maxwell havia cumprido sua miss\xE3o. Sua vingan\xE7a contra a repress\xE3o
+      finalmente come\xE7ava a se concretizar..."
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "J\xE9ssica:\nSomos os Rebeldes.\n\nMaxwell: \nOs terroristas que o guardi\xE3o
-      mencionou!\n\nJ\xE9ssica: \n\u201CTerroristas\u201D... \xC9 assim que nos chamam.\n\nMaxwell:
-      \nVoc\xEAs est\xE3o ligados \xE0 explos\xE3o! Eu devia ter esperado o guarda.\n\nJ\xE9ssica:
-      \nE seria levado para a tortura, como os outros.\n\nMaxwell: \nEu sou inocente!
-      Quem deveria estar preso s\xE3o voc\xEAs!"
-    imagem: {fileID: 21300000, guid: 2cd09237c002cb44482d888f8764dc99, type: 3}
+  - texto: "Os Rebeldes derrotaram as guardi\xE3s, n\xE3o pela for\xE7a, mas por
+      meio de uma estrat\xE9gia trai\xE7oeira."
+    imagem: {fileID: 21300000, guid: d1507d17cb716184b80f3ed8dee1e466, type: 3}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "Rebeldes:\nEle n\xE3o vai nos ajudar...\n\nRebeldes:\nMatem-no antes
-      que seja tarde!\n\nRebeldes:\nEle n\xE3o consegue enxergar a verdade!\n\nRebeldes:\nComo
-      pode dizer uma coisa dessas?!"
-    imagem: {fileID: 21300000, guid: 2afbfaddd6cfd5a42bcc4922d4598eeb, type: 3}
+  - texto: "Em meio ao caos, Maxwell observava com tristeza. Ele queria justi\xE7a,
+      n\xE3o uma guerra."
+    imagem: {fileID: 21300000, guid: 2abb4f40d327c7c4b96d51814fcccbbe, type: 3}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "J\xE9ssica: \nInocente? Voc\xEAs realmente n\xE3o enxergam o que o regime
-      est\xE1 fazendo? Est\xE3o tirando nossos direitos!\n\nMaxwell: \nEles est\xE3o
-      controlando o caos enquanto a princesa n\xE3o pode assumir.\n\nJ\xE9ssica:
-      \nEla nunca assumir\xE1.\n\nMaxwell: \nComo assim?"
-    imagem: {fileID: 21300000, guid: 2cd09237c002cb44482d888f8764dc99, type: 3}
+  - texto: 'Otto: Maxwell... Maxwell!'
+    imagem: {fileID: 21300000, guid: 8f6c99c106f1a6644acb48b7f44f9ca0, type: 3}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "J\xE9ssica: \nApenas leia.\n\nMaxwell: \nIsso \xE9 inacredit\xE1vel...\n\nJ\xE9ssica:
-      \n\xC9 o que escondem da colmeia. O regime retirou direitos de seus opositores
-      e passou a controlar quem governa cada regi\xE3o.\n\nJ\xE9ssica: \nEm\xEDlio
-      e Seiva perseguem suspeitos, revistam at\xE9 crian\xE7as e usam viol\xEAncia
-      nos interrogat\xF3rios.\n\nMaxwell: \nDisseram que esses atos eram para nos
-      proteger... E a princesa?\n\nJ\xE9ssica: \nEst\xE1 protegida. Mas, se chegarem
-      ao Ato 3, talvez seja tarde demais.\n\nMaxwell: \nO que \xE9 o Ato 3?\n\nLaura:
-      \nUma falsa democracia. O povo poder\xE1 votar, mas apenas aliados dos militares
-      poder\xE3o concorrer.\n\nLaura: \nAssim, far\xE3o parecer que o povo escolheu
-      abandonar a princesa.\n\nMaxwell: \nEnt\xE3o precisamos impedir isso!\n\nJ\xE9ssica:
-      \nPrecisamos entrar na colmeia e abrir o port\xE3o principal para os Rebeldes.\n\nMaxwell:
-      \nAcho que sei como."
-    imagem: {fileID: 21300000, guid: 37ec8d81b1a7248479ba268ccb8917f4, type: 3}
+  - texto: "Maxwell: Otto?! O que aconteceu com voc\xEA?"
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "O plano de Maxwell era simples: oferecer \xE0 colmeia uma grande est\xE1tua
-      como presente.\n\nMas ela seria oca, permitindo que os Rebeldes se escondessem
-      em seu interior."
-    imagem: {fileID: -7467560034163336240, guid: 5c530469a544a2f4c93d556bd252b9a5, type: 3}
+  - texto: "Otto: Os militares come\xE7aram a perseguir suspeitos de ajudar os Rebeldes..."
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "Na calada da noite, os Rebeldes sa\xEDram da est\xE1tua e atacaram.\n\nOs
-      guardas acionaram o alarme, mas eles avan\xE7aram pela colmeia em dire\xE7\xE3o
-      ao port\xE3o principal."
-    imagem: {fileID: 21300000, guid: c972557a3bd3b374e9c2e7e8b71e16f6, type: 3}
+  - texto: "Otto: Fui torturado... Perdi a vis\xE3o!"
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "Agora, o port\xE3o precisa ser aberto antes que os refor\xE7os cheguem."
+  - texto: 'Maxwell: Otto... Sinto muito.'
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: Mas os Rebeldes est\xE3o aqui. Vamos acabar com essa ditadura!"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Em\xEDlio: Tolos! Nosso poder militar \xE9 muito superior. Nunca deveriam
+      ter sa\xEDdo de seus esconderijos, terroristas!"
+    imagem: {fileID: 21300000, guid: 8ab48e4bac6431a41ae8a785faec9554, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 'Seiva: Entreguem a princesa imediatamente!'
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Maxwell, a princesa est\xE1 conosco! Precisamos recuar e
+      nos reorganizar."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Proteja nossa retirada! N\xE3o deixe os militares avan\xE7arem!"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 'Maxwell: Entendido!'
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
   avancarCutscene: {fileID: -7170355178394980583, guid: 5b667034be5e84d4b80c0c529faf6857, type: 3}
-  cenaDestino: 18_Esgoto
+  cenaDestino: 23_Fase4
 --- !u!4 &1747863705
 Transform:
   m_ObjectHideFlags: 0

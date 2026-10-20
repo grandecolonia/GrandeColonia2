@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu & Fase 1/11_LadoEsq.unity
     guid: 64273837dafcdf64eabf0b0fc713271a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/12_Cutscene02.unity
     guid: a8a1eb2564bd9b742a62e6bddf048657
   - enabled: 1
@@ -68,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase 3/20_CacaPalavras.unity
     guid: 4a0711831c89dd040b49b28091fca8a2
+  - enabled: 1
+    path: Assets/Scenes/Fase 4/24_Cutscene06.unity
+    guid: 4b33267d99b297f41a406e6f1e3ae809
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

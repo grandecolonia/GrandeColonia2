@@ -696,34 +696,29 @@ MonoBehaviour:
     imagem: {fileID: 21300000, guid: 2cd09237c002cb44482d888f8764dc99, type: 3}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "J\xE9ssica: \nApenas leia.\n\nMaxwell: \nIsso \xE9 inacredit\xE1vel...\n\nJ\xE9ssica:
-      \n\xC9 o que escondem da colmeia. O regime retirou direitos de seus opositores
-      e passou a controlar quem governa cada regi\xE3o.\n\nJ\xE9ssica: \nEm\xEDlio
-      e Seiva perseguem suspeitos, revistam at\xE9 crian\xE7as e usam viol\xEAncia
-      nos interrogat\xF3rios.\n\nMaxwell: \nDisseram que esses atos eram para nos
-      proteger... E a princesa?\n\nJ\xE9ssica: \nEst\xE1 protegida. Mas, se chegarem
-      ao Ato 3, talvez seja tarde demais.\n\nMaxwell: \nO que \xE9 o Ato 3?\n\nLaura:
-      \nUma falsa democracia. O povo poder\xE1 votar, mas apenas aliados dos militares
-      poder\xE3o concorrer.\n\nLaura: \nAssim, far\xE3o parecer que o povo escolheu
-      abandonar a princesa.\n\nMaxwell: \nEnt\xE3o precisamos impedir isso!\n\nJ\xE9ssica:
-      \nPrecisamos entrar na colmeia e abrir o port\xE3o principal para os Rebeldes.\n\nMaxwell:
-      \nAcho que sei como."
+  - texto: "J\xE9ssica:\r\nApenas leia.\r\n\r\nMaxwell:\r\nIsso \xE9 inacredit\xE1vel...\r\n\r\nJ\xE9ssica:\r\nO
+      regime esconde a verdade da colmeia. Retiraram direitos dos opositores e assumiram
+      o controle das regi\xF5es.\r\n\r\nJ\xE9ssica:\r\nEm\xEDlio e Seiva perseguem
+      suspeitos e usam a viol\xEAncia at\xE9 contra inocentes.\r\n\r\nMaxwell:\r\nDisseram
+      que era para nossa prote\xE7\xE3o... E a princesa?\r\n\nJ\xE9ssica:  \r\nEst\xE1
+      segura, por enquanto. Mas precisamos impedir o Ato 3.\r\n\r\nMaxwell:\r\nO
+      que \xE9 o Ato 3?\r\n\r\nLaura:  \r\nUma falsa democracia. O povo poder\xE1
+      votar, mas apenas aliados dos militares poder\xE3o concorrer.\r\n\r\nLaura:\r\nAssim,
+      far\xE3o parecer que a pr\xF3pria colmeia rejeitou a princesa.\r\n\r\nMaxwell:\r\nN\xE3o
+      podemos permitir isso!\r\n\r\n**J\xE9ssica:**  \r\nPrecisamos entrar na colmeia
+      e abrir o port\xE3o para os Rebeldes.\r\n\r\nMaxwell:\r\nAcho que sei como."
     imagem: {fileID: 21300000, guid: 37ec8d81b1a7248479ba268ccb8917f4, type: 3}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "O plano de Maxwell era simples: oferecer \xE0 colmeia uma grande est\xE1tua
-      como presente.\n\nMas ela seria oca, permitindo que os Rebeldes se escondessem
-      em seu interior."
-    imagem: {fileID: -7467560034163336240, guid: 5c530469a544a2f4c93d556bd252b9a5, type: 3}
+  - texto: 
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "Na calada da noite, os Rebeldes sa\xEDram da est\xE1tua e atacaram.\n\nOs
-      guardas acionaram o alarme, mas eles avan\xE7aram pela colmeia em dire\xE7\xE3o
-      ao port\xE3o principal."
+  - texto: 
     imagem: {fileID: 21300000, guid: c972557a3bd3b374e9c2e7e8b71e16f6, type: 3}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "Agora, o port\xE3o precisa ser aberto antes que os refor\xE7os cheguem."
+  - texto: 
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0

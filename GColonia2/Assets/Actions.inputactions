@@ -240,7 +240,7 @@
                 {
                     "name": "down",
                     "id": "262f88eb-8c1a-45d0-aa8f-3ed8c9ae5810",
-                    "path": "",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -251,7 +251,7 @@
                 {
                     "name": "left",
                     "id": "5f76e903-31e4-4529-b4f1-b6b36e11633c",
-                    "path": "",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -262,7 +262,7 @@
                 {
                     "name": "right",
                     "id": "bb66daf5-917a-4892-88ad-9014175e014a",
-                    "path": "",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -324,6 +324,65 @@
                     "action": "MoverTopDown",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Jogo",
+            "id": "71a4f544-cd8d-414d-9cc1-64aea2788e68",
+            "actions": [
+                {
+                    "name": "Atirar",
+                    "type": "Button",
+                    "id": "fffe042a-654e-4d37-a751-402f657dad62",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Recarregar",
+                    "type": "Button",
+                    "id": "9d41be02-a5d0-49e5-b6b4-5a693b3f26ac",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "72ad2e6c-ec1c-43eb-9583-ed7eded948fb",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Atirar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1014f0d9-5227-4247-b78c-a22d3b74e635",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Atirar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5069b399-bc8d-4239-afa7-4f4b5be283df",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Recarregar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
