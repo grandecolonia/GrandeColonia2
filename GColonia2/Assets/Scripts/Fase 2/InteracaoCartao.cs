@@ -38,13 +38,20 @@ public class InteracaoCartao : MonoBehaviour
     }
 
     void Update()
+{
+    if (coletado || !jogadorNaArea)
     {
-        // Tenta coletar o cartão quando Maxwell estiver na área e apertar o comando.
-        if (jogadorNaArea && !coletado && interagir.action.WasPressedThisFrame())
-        {
-            ColetarCartao();
-        }
+        return;
     }
+
+    // Mostra a interação assim que a energia estiver ligada.
+    iconeE.SetActive(controleLabirinto.energiaLigada);
+
+    if (controleLabirinto.energiaLigada && interagir.action.WasPressedThisFrame())
+    {
+        ColetarCartao();
+    }
+}
 
     void ColetarCartao()
     {

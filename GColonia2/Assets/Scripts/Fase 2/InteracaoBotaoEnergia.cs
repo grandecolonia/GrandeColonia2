@@ -16,26 +16,27 @@ public class InteracaoBotaoEnergia : MonoBehaviour
     private bool jogadorNaArea = false;
     private bool ativado = false;
 
+    [Header("Input")]
+public InputActionReference interagir;
+
     void Start()
     {
         // Começa com o ícone escondido.
         iconeE.SetActive(false);
     }
 
-    void Update()
+void Update()
+{
+    if (!jogadorNaArea || ativado || interagir == null)
     {
-        // Só continua se o jogador estiver na área e o botão ainda não tiver sido ativado.
-        if (!jogadorNaArea || ativado)
-        {
-            return;
-        }
-
-        // Lê diretamente a tecla E pelo New Input System.
-        if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            AtivarEnergia();
-        }
+        return;
     }
+
+    if (interagir.action.WasPressedThisFrame())
+    {
+        AtivarEnergia();
+    }
+}
 
     void AtivarEnergia()
     {

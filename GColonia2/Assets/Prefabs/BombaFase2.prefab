@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeQueda: 7
+  prefabExplosao: {fileID: 1824080881238644458, guid: 742d1704bc6c83d498829eb9ae881733, type: 3}
+  raioExplosao: 1
+  duracaoExplosao: 0.6
 --- !u!1 &8727544312946629207
 GameObject:
   m_ObjectHideFlags: 0

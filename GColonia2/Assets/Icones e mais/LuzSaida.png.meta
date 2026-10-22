@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: b7bc5dbfd7e5b4b4f8b00e57e50430ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1380637416608309780
+    second: LuzSaida_0
+  - first:
+      213: 7472306997771147946
+    second: LuzSaida_1
+  - first:
+      213: -6532772095814055957
+    second: LuzSaida_2
+  - first:
+      213: -2977886333348954468
+    second: LuzSaida_3
+  - first:
+      213: 8331072331603190497
+    second: LuzSaida_4
+  - first:
+      213: 7421461606386836558
+    second: LuzSaida_5
+  - first:
+      213: 808333368350428559
+    second: LuzSaida_6
+  - first:
+      213: 5460565048816083533
+    second: LuzSaida_7
+  - first:
+      213: -8781090805665716831
+    second: LuzSaida_8
+  - first:
+      213: 7423149981210183933
+    second: LuzSaida_9
+  - first:
+      213: 3711449951931506454
+    second: LuzSaida_10
+  - first:
+      213: -5086021537710909864
+    second: LuzSaida_11
+  - first:
+      213: -817553678358204381
+    second: LuzSaida_12
+  - first:
+      213: 1171812490104379803
+    second: LuzSaida_13
+  - first:
+      213: -7819352238255289552
+    second: LuzSaida_14
+  - first:
+      213: -7581228553317059299
+    second: LuzSaida_15
+  - first:
+      213: -6349761775537904581
+    second: LuzSaida_16
+  - first:
+      213: 36962549568495773
+    second: LuzSaida_17
+  - first:
+      213: -971745763777875557
+    second: LuzSaida_18
+  - first:
+      213: 7291597885473045181
+    second: LuzSaida_19
+  - first:
+      213: 250268665432088874
+    second: LuzSaida_20
+  - first:
+      213: 1123139020220928528
+    second: LuzSaida_21
+  - first:
+      213: -2827206014252565006
+    second: LuzSaida_22
+  - first:
+      213: 4400109033809114911
+    second: LuzSaida_23
+  - first:
+      213: -4867209851273918462
+    second: LuzSaida_24
+  - first:
+      213: 5359942518358506377
+    second: LuzSaida_25
+  - first:
+      213: 8362084305708324094
+    second: LuzSaida_26
+  - first:
+      213: 7158117000609717366
+    second: LuzSaida_27
+  - first:
+      213: -493534756833589320
+    second: LuzSaida_28
+  - first:
+      213: -639429132815545454
+    second: LuzSaida_29
+  - first:
+      213: -6061525106773886733
+    second: LuzSaida_30
+  - first:
+      213: -1184162037156691694
+    second: LuzSaida_31
+  - first:
+      213: -5837816286831745507
+    second: LuzSaida_32
+  - first:
+      213: 4353501770375669238
+    second: LuzSaida_33
+  - first:
+      213: -2750290390679299738
+    second: LuzSaida_34
+  - first:
+      213: 8886513155620642634
+    second: LuzSaida_35
+  - first:
+      213: 6914942557752077792
+    second: LuzSaida_36
+  - first:
+      213: -714380070194609429
+    second: LuzSaida_37
+  - first:
+      213: 5241188307663719308
+    second: LuzSaida_38
+  - first:
+      213: 5075453306363312105
+    second: LuzSaida_39
+  - first:
+      213: 880345083291978796
+    second: LuzSaida_40
+  - first:
+      213: 3388777024438063530
+    second: LuzSaida_41
+  - first:
+      213: -1346998433046963262
+    second: LuzSaida_42
+  - first:
+      213: -6104158144834613470
+    second: LuzSaida_43
+  - first:
+      213: -3317390835766417553
+    second: LuzSaida_44
+  - first:
+      213: -5528650025612108822
+    second: LuzSaida_45
+  - first:
+      213: -2357618881181511607
+    second: LuzSaida_46
+  - first:
+      213: 5618093587452712586
+    second: LuzSaida_47
+  - first:
+      213: -7057194095210879926
+    second: LuzSaida_48
+  - first:
+      213: 2564200839180200296
+    second: LuzSaida_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LuzSaida_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4122d8c5a62092310800000000000000
+      internalID: 1380637416608309780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_1
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1212
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa90dedf97f2b760800000000000000
+      internalID: 7472306997771147946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_2
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1207
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be74b66146ee655a0800000000000000
+      internalID: -6532772095814055957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 1185
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ebe37482c6ca6d0800000000000000
+      internalID: -2977886333348954468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1181
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e22b4b452aed9370800000000000000
+      internalID: 8331072331603190497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_5
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1222
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4423eaa2045ef660800000000000000
+      internalID: 7421461606386836558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1205
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d4f907ae6c73b00800000000000000
+      internalID: 808333368350428559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_7
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1182
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42a8970bf2d7cb40800000000000000
+      internalID: 5460565048816083533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_8
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1205
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5a8dbbf6c432680800000000000000
+      internalID: -8781090805665716831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1185
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df80b701493540760800000000000000
+      internalID: 7423149981210183933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1164
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f94823118b18330800000000000000
+      internalID: 3711449951931506454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_11
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1189
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85651ccbb52da69b0800000000000000
+      internalID: -5086021537710909864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1187
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32035a8d24777a4f0800000000000000
+      internalID: -817553678358204381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_13
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1174
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b999900504d134010800000000000000
+      internalID: 1171812490104379803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_14
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1173
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b432961941c7390800000000000000
+      internalID: -7819352238255289552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_15
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1157
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15fc7e3cc01ac690800000000000000
+      internalID: -7581228553317059299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1076
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34a5b0ce4d11e7a0800000000000000
+      internalID: -6349761775537904581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_17
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 939
+        width: 69
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90e5053e31538000800000000000000
+      internalID: 36962549568495773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 996
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91770a506aa382f0800000000000000
+      internalID: -971745763777875557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 996
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba3c90f4a5f03560800000000000000
+      internalID: 7291597885473045181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_20
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1036
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21ad757602297300800000000000000
+      internalID: 250268665432088874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_21
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1012
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01216adfcf0369f00800000000000000
+      internalID: 1123139020220928528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 901
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdb0a5fb1fb3c8d0800000000000000
+      internalID: -2827206014252565006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_23
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 947
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17fd2d7ad3501d30800000000000000
+      internalID: 4400109033809114911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_24
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 911
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20849878d62347cb0800000000000000
+      internalID: -4867209851273918462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_25
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 893
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b754f7257526a40800000000000000
+      internalID: 5359942518358506377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_26
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 890
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef41d9f2f571c0470800000000000000
+      internalID: 8362084305708324094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_27
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 795
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cd60a9c7db65360800000000000000
+      internalID: 7158117000609717366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_28
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 882
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b700a6e0cc9629f0800000000000000
+      internalID: -493534756833589320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_29
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 858
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b4e7f679a4027f0800000000000000
+      internalID: -639429132815545454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_30
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 312
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f871add70321eba0800000000000000
+      internalID: -6061525106773886733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_31
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 256
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211c5c2b6e2019fe0800000000000000
+      internalID: -1184162037156691694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 280
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1667676409ebfea0800000000000000
+      internalID: -5837816286831745507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_33
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 262
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5a6485bceba6c30800000000000000
+      internalID: 4353501770375669238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_34
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 290
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d36a167105d9d0800000000000000
+      internalID: -2750290390679299738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f9a9cd1ac335b70800000000000000
+      internalID: 8886513155620642634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 264
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed2b0d8e9fc6ff50800000000000000
+      internalID: 6914942557752077792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 178
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be28e617c130616f0800000000000000
+      internalID: -714380070194609429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_38
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 157
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b0a3f2ff07cb840800000000000000
+      internalID: 5241188307663719308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_39
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 182
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7fdd724e1af6640800000000000000
+      internalID: 5075453306363312105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_40
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 71
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c4161603d973c00800000000000000
+      internalID: 880345083291978796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_41
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 13
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1d2accfba570f20800000000000000
+      internalID: 3388777024438063530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_42
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 57
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb5a35df008e4de0800000000000000
+      internalID: -1346998433046963262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_43
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 63
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f435c228ca94ba0800000000000000
+      internalID: -6104158144834613470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_44
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 42
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67a1057c9246f1d0800000000000000
+      internalID: -3317390835766417553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_45
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 31
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb9feff71a4643b0800000000000000
+      internalID: -5528650025612108822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_46
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 47
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9401c676e1e084fd0800000000000000
+      internalID: -2357618881181511607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_47
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 46
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86d4031a5a77fd40800000000000000
+      internalID: 5618093587452712586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_48
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44a8fb6c5fcf0e90800000000000000
+      internalID: -7057194095210879926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuzSaida_49
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 17
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8692818d31fd59320800000000000000
+      internalID: 2564200839180200296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LuzSaida_0: 1380637416608309780
+      LuzSaida_1: 7472306997771147946
+      LuzSaida_10: 3711449951931506454
+      LuzSaida_11: -5086021537710909864
+      LuzSaida_12: -817553678358204381
+      LuzSaida_13: 1171812490104379803
+      LuzSaida_14: -7819352238255289552
+      LuzSaida_15: -7581228553317059299
+      LuzSaida_16: -6349761775537904581
+      LuzSaida_17: 36962549568495773
+      LuzSaida_18: -971745763777875557
+      LuzSaida_19: 7291597885473045181
+      LuzSaida_2: -6532772095814055957
+      LuzSaida_20: 250268665432088874
+      LuzSaida_21: 1123139020220928528
+      LuzSaida_22: -2827206014252565006
+      LuzSaida_23: 4400109033809114911
+      LuzSaida_24: -4867209851273918462
+      LuzSaida_25: 5359942518358506377
+      LuzSaida_26: 8362084305708324094
+      LuzSaida_27: 7158117000609717366
+      LuzSaida_28: -493534756833589320
+      LuzSaida_29: -639429132815545454
+      LuzSaida_3: -2977886333348954468
+      LuzSaida_30: -6061525106773886733
+      LuzSaida_31: -1184162037156691694
+      LuzSaida_32: -5837816286831745507
+      LuzSaida_33: 4353501770375669238
+      LuzSaida_34: -2750290390679299738
+      LuzSaida_35: 8886513155620642634
+      LuzSaida_36: 6914942557752077792
+      LuzSaida_37: -714380070194609429
+      LuzSaida_38: 5241188307663719308
+      LuzSaida_39: 5075453306363312105
+      LuzSaida_4: 8331072331603190497
+      LuzSaida_40: 880345083291978796
+      LuzSaida_41: 3388777024438063530
+      LuzSaida_42: -1346998433046963262
+      LuzSaida_43: -6104158144834613470
+      LuzSaida_44: -3317390835766417553
+      LuzSaida_45: -5528650025612108822
+      LuzSaida_46: -2357618881181511607
+      LuzSaida_47: 5618093587452712586
+      LuzSaida_48: -7057194095210879926
+      LuzSaida_49: 2564200839180200296
+      LuzSaida_5: 7421461606386836558
+      LuzSaida_6: 808333368350428559
+      LuzSaida_7: 5460565048816083533
+      LuzSaida_8: -8781090805665716831
+      LuzSaida_9: 7423149981210183933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

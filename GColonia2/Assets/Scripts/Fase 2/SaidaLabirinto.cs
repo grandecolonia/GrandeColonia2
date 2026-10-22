@@ -6,7 +6,6 @@ public class SaidaLabirinto : MonoBehaviour
 {
     [Header("Referências")]
 
-    // Referências usadas para controlar a saída do labirinto.
     public ControleLabirinto controleLabirinto;
     public GameObject indicadorSaida;
     public GameObject luzPorta;
@@ -15,33 +14,41 @@ public class SaidaLabirinto : MonoBehaviour
 
     [Header("Cena")]
 
-    // Cena carregada depois que a saída terminar.
     public string proximaCena;
 
-    [Header("Efeito")]
+    [Header("Transição")]
 
-    // Controla o tempo da luz e do fade final.
-    public float duracaoLuz = 0.7f;
-    public float duracaoFade = 1.2f;
+    // Controla o crescimento da luz e o clareamento da tela.
+    public float duracaoLuz = 1f;
+    public float duracaoFade = 1f;
+    public float escalaFinalLuz = 6f;
 
     private bool finalizando = false;
+    private Vector3 escalaInicialLuz;
+    private SpriteRenderer spriteLuz;
+    private Color corInicialLuz;
 
     void Start()
     {
-        // Começa com a luz escondida e sem fade na tela.
+        escalaInicialLuz = luzPorta.transform.localScale;
+        spriteLuz = luzPorta.GetComponent<SpriteRenderer>();
+
+        if (spriteLuz != null)
+        {
+            corInicialLuz = spriteLuz.color;
+        }
+
         luzPorta.SetActive(false);
         fadeSaida.alpha = 0f;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Só continua se quem entrou for Maxwell.
         if (!collision.CompareTag("Player"))
         {
             return;
         }
 
-        // Só permite sair depois de pegar o cartão e evita repetir a finalização.
         if (!controleLabirinto.temCartao || finalizando)
         {
             return;
@@ -54,9 +61,10 @@ public class SaidaLabirinto : MonoBehaviour
     {
         finalizando = true;
 
-        // Impede Maxwell de continuar andando.
+        // Impede Maxwell de se movimentar durante a saída.
         if (movimentacao != null)
         {
+            movimentacao.podeMover = false;
             movimentacao.enabled = false;
         }
 
@@ -65,44 +73,66 @@ public class SaidaLabirinto : MonoBehaviour
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
         }
 
-        // Esconde a seta porque Maxwell já encontrou a saída.
         indicadorSaida.SetActive(false);
 
-        // Mostra a luz que vai crescer a partir da porta.
-        luzPorta.SetActive(true);
+        // Prepara a luz para começar suavemente.
+        luzPorta.transform.localScale = escalaInicialLuz;
 
-        Vector3 escalaInicial = luzPorta.transform.localScale;
-        Vector3 escalaFinal = escalaInicial * 3f;
+        if (spriteLuz != null)
+        {
+            Color cor = corInicialLuz;
+            cor.a = 0f;
+            spriteLuz.color = cor;
+        }
+
+        luzPorta.SetActive(true);
 
         float tempo = 0f;
 
-        // Aumenta a luz aos poucos.
+        // Faz a luz crescer e aparecer progressivamente.
         while (tempo < duracaoLuz)
         {
             tempo += Time.deltaTime;
 
-            float progresso = tempo / duracaoLuz;
+            float progresso = Mathf.Clamp01(tempo / duracaoLuz);
+            float suavidade = Mathf.SmoothStep(0f, 1f, progresso);
 
-            luzPorta.transform.localScale = Vector3.Lerp(escalaInicial, escalaFinal, progresso);
+            luzPorta.transform.localScale = Vector3.Lerp(escalaInicialLuz, escalaInicialLuz * escalaFinalLuz, suavidade);
+
+            if (spriteLuz != null)
+            {
+                Color cor = corInicialLuz;
+                cor.a = suavidade * corInicialLuz.a;
+                spriteLuz.color = cor;
+            }
+
+            // Começa a clarear a tela enquanto a luz ainda cresce.
+            fadeSaida.alpha = Mathf.Clamp01((progresso - 0.55f) / 0.45f) * 0.35f;
 
             yield return null;
         }
 
-        // Faz o branco cobrir a tela inteira.
+        // Termina de cobrir a tela com branco.
         tempo = 0f;
+        float alphaInicial = fadeSaida.alpha;
 
         while (tempo < duracaoFade)
         {
             tempo += Time.deltaTime;
 
-            fadeSaida.alpha = Mathf.Clamp01(tempo / duracaoFade);
+            float progresso = Mathf.Clamp01(tempo / duracaoFade);
+            float suavidade = Mathf.SmoothStep(0f, 1f, progresso);
+
+            fadeSaida.alpha = Mathf.Lerp(alphaInicial, 1f, suavidade);
 
             yield return null;
         }
 
-        // Vai para a próxima cena.
+        fadeSaida.alpha = 1f;
+
         SceneManager.LoadScene(proximaCena);
     }
 }

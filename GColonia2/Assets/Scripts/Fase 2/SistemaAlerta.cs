@@ -27,6 +27,10 @@ public class SistemaAlerta : MonoBehaviour
     public GameObject alertaVisual;
     public CanvasGroup canvasGroup;
 
+    // Controla a intensidade máxima e mínima do vermelho.
+[Range(0f, 1f)] public float vermelhoMaximo = 0.25f;
+[Range(0f, 1f)] public float vermelhoMinimo = 0.08f;
+
     [Header("Áudio")]
 
     // AudioSource e som usados na sirene.
@@ -80,19 +84,17 @@ public class SistemaAlerta : MonoBehaviour
         StartCoroutine(DesligarAlarme());
     }
 
-    IEnumerator PiscarAlerta()
+IEnumerator PiscarAlerta()
+{
+    while (alarmeAtivo)
     {
-        // Faz o aviso do alerta piscar enquanto o alarme estiver ativo.
-        while (alarmeAtivo)
-        {
-            canvasGroup.alpha = 1f;
-            yield return new WaitForSeconds(0.4f);
+        canvasGroup.alpha = vermelhoMaximo;
+        yield return new WaitForSeconds(0.4f);
 
-            canvasGroup.alpha = 0.25f;
-            yield return new WaitForSeconds(0.4f);
-        }
+        canvasGroup.alpha = vermelhoMinimo;
+        yield return new WaitForSeconds(0.4f);
     }
-
+}
     IEnumerator DesligarAlarme()
     {
         yield return new WaitForSeconds(duracaoAlarme);
@@ -102,6 +104,8 @@ public class SistemaAlerta : MonoBehaviour
         // Para somente o som e o aviso visual.
         audioSource.Stop();
         alertaVisual.SetActive(false);
+
+        canvasGroup.alpha = 0f;
     }
 
     void VoltarJogadorParaInicio()

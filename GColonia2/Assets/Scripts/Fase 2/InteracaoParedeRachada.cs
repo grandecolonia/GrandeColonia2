@@ -33,6 +33,8 @@ public class InteracaoParedeRachada : MonoBehaviour
 
     private bool jogadorNaArea = false;
 
+    private bool aberta = false;
+
     [Header("Cenário")]
 
     // Versão do cenário com a passagem fechada.
@@ -72,35 +74,38 @@ public class InteracaoParedeRachada : MonoBehaviour
     }
 
     void InteragirParede()
+{
+    if (aberta)
     {
-        // Sem o cano, mostra o aviso e para a interação.
-        if (!controleLabirinto.temCano)
-        {
-            StartCoroutine(MostrarAviso());
-            return;
-        }
-
-        // Troca o cenário fechado pelo aberto.
-        cenarioFechado.SetActive(false);
-        cenarioAberto.SetActive(true);
-
-        // Libera fisicamente a passagem.
-        bloqueioParede.enabled = false;
-
-        // Atualiza a física antes de refazer o NavMesh.
-        Physics2D.SyncTransforms();
-
-        // Refaz a navegação dos guardas com a passagem agora aberta.
-        navMeshSurface.BuildNavMesh();
-
-        iconeE.SetActive(false);
-        jogadorNaArea = false;
+        return;
     }
+
+    if (!controleLabirinto.temCano)
+    {
+        StartCoroutine(MostrarAviso());
+        return;
+    }
+
+    aberta = true;
+
+    iconeE.SetActive(false);
+    avisoSemItem.SetActive(false);
+    jogadorNaArea = false;
+
+    // Abre a passagem e remove o bloqueio.
+    cenarioFechado.SetActive(false);
+    cenarioAberto.SetActive(true);
+    bloqueioParede.enabled = false;
+
+    // Atualiza a navegação dos guardas.
+    Physics2D.SyncTransforms();
+    navMeshSurface.BuildNavMesh();
+}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Mostra o ícone quando Maxwell entra na área da parede.
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !aberta)
         {
             jogadorNaArea = true;
             iconeE.SetActive(true);

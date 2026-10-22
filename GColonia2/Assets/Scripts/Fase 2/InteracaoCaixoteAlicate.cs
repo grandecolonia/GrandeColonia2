@@ -4,42 +4,26 @@ using UnityEngine.InputSystem;
 public class InteracaoCaixoteAlicate : MonoBehaviour
 {
     [Header("Caixote")]
-
-    // Caixote usado na interação e controle geral do labirinto.
     public GameObject caixote;
+    public GameObject alicate;
     public ControleLabirinto controleLabirinto;
 
     [Header("Interface")]
-
-    // Ícone que aparece quando Maxwell pode interagir.
     public GameObject iconeE;
 
     [Header("Input")]
-
-    // Action usada para interagir com o caixote.
     public InputActionReference interagir;
 
     private bool jogadorNaArea = false;
     private bool coletado = false;
 
-    void OnEnable()
-    {
-        // Ativa a Action usada na interação.
-        if (interagir != null)
-        {
-            interagir.action.Enable();
-        }
-    }
-
     void Start()
     {
-        // Começa com o ícone escondido.
         iconeE.SetActive(false);
     }
 
     void Update()
     {
-        // Coleta o alicate quando Maxwell estiver na área e apertar o comando.
         if (jogadorNaArea && !coletado && interagir.action.WasPressedThisFrame())
         {
             ColetarAlicate();
@@ -49,13 +33,14 @@ public class InteracaoCaixoteAlicate : MonoBehaviour
     void ColetarAlicate()
     {
         coletado = true;
-
-        // Maxwell passa a possuir o alicate.
         controleLabirinto.temAlicate = true;
 
         iconeE.SetActive(false);
 
-        // Esconde o visual do caixote.
+        // Esconde o alicate depois da coleta.
+        alicate.SetActive(false);
+
+        // Remove o visual e a colisão do caixote.
         SpriteRenderer spriteCaixote = caixote.GetComponent<SpriteRenderer>();
 
         if (spriteCaixote != null)
@@ -63,8 +48,7 @@ public class InteracaoCaixoteAlicate : MonoBehaviour
             spriteCaixote.enabled = false;
         }
 
-        // Remove o bloqueio físico do caixote.
-        BoxCollider2D colliderCaixote = caixote.GetComponent<BoxCollider2D>();
+        Collider2D colliderCaixote = caixote.GetComponent<Collider2D>();
 
         if (colliderCaixote != null)
         {
@@ -72,9 +56,8 @@ public class InteracaoCaixoteAlicate : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        // Mostra o ícone quando Maxwell entra na área e o item ainda não foi coletado.
         if (collision.CompareTag("Player") && !coletado)
         {
             jogadorNaArea = true;
@@ -82,9 +65,8 @@ public class InteracaoCaixoteAlicate : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
-        // Esconde o ícone quando Maxwell sai da área.
         if (collision.CompareTag("Player"))
         {
             jogadorNaArea = false;

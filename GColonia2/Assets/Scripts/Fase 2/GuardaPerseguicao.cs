@@ -35,26 +35,32 @@ public class GuardaPerseguicao : MonoBehaviour
     }
 
     void Update()
+{
+    if (!controleLabirinto.alertaAtivo)
     {
-        // O guarda só começa a perseguir quando o alerta estiver ativo.
-        if (!controleLabirinto.alertaAtivo)
+        if (agente.isOnNavMesh && agente.hasPath)
         {
-            PararGuarda();
-            return;
+            agente.ResetPath();
         }
 
-        // Tenta colocar o guarda novamente no NavMesh caso ele saia dele.
-        if (!agente.isOnNavMesh)
+        if (animator != null)
         {
-            ColocarGuardaNoNavMesh();
-            return;
+            animator.SetBool("andando", false);
         }
 
-        // Atualiza o destino do guarda para a posição atual de Maxwell.
-        agente.SetDestination(jogador.position);
-
-        AtualizarVisual();
+        return;
     }
+
+    if (!agente.isOnNavMesh)
+    {
+        ColocarGuardaNoNavMesh();
+        return;
+    }
+
+    agente.SetDestination(jogador.position);
+
+    AtualizarVisual();
+}
 
     void ColocarGuardaNoNavMesh()
     {
@@ -126,13 +132,18 @@ public class GuardaPerseguicao : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision)
+{
+    // Só captura Maxwell durante a perseguição.
+    if (!controleLabirinto.alertaAtivo)
     {
-        // Reinicia o labirinto se o guarda encostar no jogador.
-        if (collision.CompareTag("Player"))
-        {
-            ReiniciarLabirinto();
-        }
+        return;
     }
+
+    if (collision.CompareTag("Player"))
+    {
+        ReiniciarLabirinto();
+    }
+}
 
     void ReiniciarLabirinto()
     {

@@ -1,26 +1,18 @@
+
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LimiteTransicao : MonoBehaviour
 {
-    // Objeto que contém o vídeo e o script responsável pela transição.
-    public GameObject transicaoVideo;
-
-    // Impede que a transição seja iniciada mais de uma vez.
-    private bool ativou = false;
+    [Header("Troca de cena")]
+    public string nomeDaCena;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Inicia a transição quando o jogador entra no limite.
-        if (other.CompareTag("Player") && !ativou)
+        // Troca de cena quando o Maxwell chega ao limite.
+        if (other.CompareTag("Player") && !string.IsNullOrEmpty(nomeDaCena))
         {
-            ativou = true;
-
-            FadeTransicao fade = transicaoVideo.GetComponentInChildren<FadeTransicao>();
-
-            if (fade != null)
-            {
-                fade.IniciarFade();
-            }
+            SceneManager.LoadScene(nomeDaCena);
         }
     }
 }

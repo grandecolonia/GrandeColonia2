@@ -6238,6 +6238,7 @@ MonoBehaviour:
   pontoInferior: {fileID: 843109000}
   pontoSuperior: {fileID: 108921117}
   velocidade: 2
+  alturaFinal: 0.2
 --- !u!4 &656672286
 Transform:
   m_ObjectHideFlags: 0
@@ -6810,6 +6811,8 @@ GameObject:
   - component: {fileID: 1131541181}
   - component: {fileID: 1131541180}
   - component: {fileID: 1131541183}
+  - component: {fileID: 1131541185}
+  - component: {fileID: 1131541184}
   m_Layer: 10
   m_Name: Personagem
   m_TagString: Player
@@ -6861,9 +6864,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 3f535298cb1476048885844715e7e75b, type: 3}
+  m_Sprite: {fileID: 6413032279659435434, guid: 1e09c009df1fa184390c57663b8132d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 10.24, y: 15.36}
@@ -6881,8 +6884,8 @@ Transform:
   m_GameObject: {fileID: 1131541177}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3, y: -3.2, z: 0}
-  m_LocalScale: {x: 0.13, y: 0.13, z: 1}
+  m_LocalPosition: {x: -6.3, y: -3.38, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6921,17 +6924,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.18849516, y: -0.40839815}
+  m_Offset: {x: 2.1679368, y: -1.4557018}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.24, y: 15.36}
+    oldSize: {x: 14.651034, y: 24.949999}
     newSize: {x: 10.24, y: 15.36}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.9781103, y: 14.543204}
+  m_Size: {x: 9.025417, y: 21.874325}
   m_EdgeRadius: 0
 --- !u!50 &1131541181
 Rigidbody2D:
@@ -7003,6 +7006,41 @@ MonoBehaviour:
   boxEscada: {fileID: 1004641179}
   guardaVisivel: {fileID: 110440007}
   guarda: {fileID: 110440013}
+--- !u!114 &1131541184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131541177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2eac9251aee7284a82a7c1d63111449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1131541185}
+--- !u!95 &1131541185
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131541177}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b4bdcb2860085c448eaf744040793b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1152574409
 GameObject:
   m_ObjectHideFlags: 0
@@ -7210,7 +7248,7 @@ GameObject:
   - component: {fileID: 1303886873}
   m_Layer: 0
   m_Name: PlataformaAgua
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7817,7 +7855,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.024417162, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7827,7 +7865,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.75583124, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &1836422960
 Transform:
@@ -7892,6 +7930,7 @@ MonoBehaviour:
   pontoInferior: {fileID: 225631444}
   pontoSuperior: {fileID: 1283456662}
   velocidade: 2
+  alturaFinal: 0.2
 --- !u!4 &1871032051
 Transform:
   m_ObjectHideFlags: 0

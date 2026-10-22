@@ -18,6 +18,8 @@ public class MovimentacaoPersonagem : MonoBehaviour
 
     private bool estarNoChao;
 
+    public bool EstaNoChao => estarNoChao;
+
     [Header("Visual")]
 
     // SpriteRenderer usado para virar o personagem.
@@ -79,15 +81,15 @@ public class MovimentacaoPersonagem : MonoBehaviour
         // Lê continuamente o valor da Action de movimento.
         movimento = mover.action.ReadValue<Vector2>();
 
-        // Vira o personagem de acordo com a direção horizontal.
-        if (movimento.x > 0)
-        {
-            spritedopers.flipX = true;
-        }
-        else if (movimento.x < 0)
-        {
-            spritedopers.flipX = false;
-        }
+        // Vira Maxwell conforme a direção dos sprites.
+if (movimento.x > 0)
+{
+    spritedopers.flipX = false;
+}
+else if (movimento.x < 0)
+{
+    spritedopers.flipX = true;
+}
 
         // Executa o pulo somente quando o personagem estiver no chão.
         if (pular.action.WasPressedThisFrame() && estarNoChao)
@@ -110,20 +112,18 @@ public class MovimentacaoPersonagem : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Chao") || collision.gameObject.CompareTag("Agua"))
     {
-        // Guarda que o personagem encostou no chão.
-        if (collision.gameObject.CompareTag("Chao"))
-        {
-            estarNoChao = true;
-        }
+        estarNoChao = true;
     }
+}
 
-    private void OnCollisionExit2D(Collision2D collision)
+private void OnCollisionExit2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Chao") || collision.gameObject.CompareTag("Agua"))
     {
-        // Guarda que o personagem saiu do chão.
-        if (collision.gameObject.CompareTag("Chao"))
-        {
-            estarNoChao = false;
-        }
+        estarNoChao = false;
     }
+}
 }

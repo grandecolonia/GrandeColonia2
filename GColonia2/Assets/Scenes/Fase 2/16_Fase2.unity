@@ -147,7 +147,7 @@ Animator:
   m_GameObject: {fileID: 42624131}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8e95f16cedfe7604f88d771bf6d937a9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 11eab0cd80e14844fbfa13100f4c1787, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -203,9 +203,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -3869258882469543954, guid: f6d230bd7ec5ebe42b0aad532e0b182c, type: 3}
+  m_Sprite: {fileID: 6413032279659435434, guid: 1e09c009df1fa184390c57663b8132d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3.62, y: 3.62}
@@ -223,8 +223,8 @@ Transform:
   m_GameObject: {fileID: 42624131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2677431, y: -2.16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.2677431, y: -1.9, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1708233208}
@@ -465,6 +465,56 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &675588593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675588595}
+  - component: {fileID: 675588594}
+  m_Layer: 0
+  m_Name: ControleFaseCorrida
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &675588594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675588593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba6aed70c87d904b84c67907a49f1ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duracaoOnda1: 20
+  duracaoOnda2: 25
+  duracaoFinal: 5
+  spawnGuardas: {fileID: 712172056}
+  helicoptero: {fileID: 1302963744}
+  cenaVitoria: 17_Cutscene03
+--- !u!4 &675588595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675588593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4634933, y: -1.4316602, z: 0.019727318}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691049918
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +527,7 @@ GameObject:
   - component: {fileID: 691049920}
   m_Layer: 11
   m_Name: Chao
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1070,7 +1120,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.44, y: -1.95, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1314765344}
@@ -1119,7 +1169,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 066c39c6cfe123045afa2d55f745670f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1754e4992840c464d8d4cf68f32dc851, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1267,13 +1317,14 @@ MonoBehaviour:
   velocidadeEntrada: 4
   distanciaSobrevoo: 0.15
   velocidadeSobrevoo: 2
-  pontoBomba: {fileID: 0}
-  prefabBomba: {fileID: 0}
+  pontoBomba: {fileID: 983069387}
+  prefabBomba: {fileID: 1824080881238644458, guid: 742d1704bc6c83d498829eb9ae881733, type: 3}
   jogador: {fileID: 1708233208}
   marcadorPerigo: {fileID: 1113113889}
   tempoAntesDoAlvo: 1
   tempoMarcando: 0.8
   tempoAntesAtaque: 0.5
+  intervaloAtaques: 2
 --- !u!1 &1314765343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,8 +1654,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.011273384, y: -0.8074477}
-  m_Size: {x: 1.451335, y: 2.9657073}
+  m_Offset: {x: -0.046622753, y: -2.044696}
+  m_Size: {x: 1.050703, y: 2.2822747}
   m_Direction: 0
 --- !u!50 &1708233207
 Rigidbody2D:
@@ -1751,3 +1802,4 @@ SceneRoots:
   - {fileID: 1708233208}
   - {fileID: 1314765344}
   - {fileID: 691049919}
+  - {fileID: 675588595}

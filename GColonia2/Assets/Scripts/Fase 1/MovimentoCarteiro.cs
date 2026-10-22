@@ -1,30 +1,27 @@
+
 using UnityEngine;
 
 public class MovimentoCarteiro : MonoBehaviour
 {
-    // Configura o movimento de entrada e saída do carteiro.
     public float velocidade = 2f;
     public float distancia = 2f;
 
-    // Referências usadas para iniciar o diálogo.
     public SistemaDialogo sistemadialogo;
     public DialogoData dialogo;
     public SpriteRenderer spriteRenderer;
     public GameObject iconeAjuda;
 
     [Header("Entrega das cartas")]
-
-    // Elementos usados durante a entrega das cartas ao jogador.
     public MovimentoPersonagem jogador;
     public GameObject iconeCartas;
     public float distanciaJogador = 0.7f;
     public float velocidadeJogador = 2f;
 
-    // Guardam as posições usadas durante a movimentação.
     private Vector3 posicaoInicial;
     private Vector3 destinoJogador;
 
-    // Controlam cada etapa da ação do carteiro.
+    private AnimacaoMaxwell animacaoJogador;
+
     private bool chegou = false;
     private bool iniciouDialogo = false;
     private bool pegandoCartas = false;
@@ -33,6 +30,9 @@ public class MovimentoCarteiro : MonoBehaviour
     void Start()
     {
         posicaoInicial = transform.position;
+
+        // Pega o componente de animação do Maxwell.
+        animacaoJogador = jogador.GetComponent<AnimacaoMaxwell>();
 
         iconeAjuda.SetActive(false);
         iconeCartas.SetActive(false);
@@ -58,25 +58,32 @@ public class MovimentoCarteiro : MonoBehaviour
             pegandoCartas = true;
             jogador.podeMover = false;
 
-            // Faz o jogador olhar e caminhar em direção às cartas.
-            jogador.spritedopers.flipX = true;
+            // Maxwell olha para a direita e começa a andar.
+            jogador.spritedopers.flipX = false;
             destinoJogador = jogador.transform.position + Vector3.right * distanciaJogador;
+
+            if (animacaoJogador != null)
+            {
+                animacaoJogador.movimentoAutomatico = true;
+            }
         }
 
-        // Move o jogador até o ponto em que ele recebe as cartas.
+        // Move Maxwell até o ponto da entrega.
         if (pegandoCartas)
         {
-            jogador.transform.position = Vector3.MoveTowards(
-                jogador.transform.position,
-                destinoJogador,
-                velocidadeJogador * Time.deltaTime
-            );
+            jogador.transform.position = Vector3.MoveTowards(jogador.transform.position, destinoJogador, velocidadeJogador * Time.deltaTime);
 
             if (Vector3.Distance(jogador.transform.position, destinoJogador) < 0.01f)
             {
                 pegandoCartas = false;
 
-                // Mostra as cartas e a seta através do sistema de entregas.
+                // Maxwell para de andar e volta para Idle.
+                if (animacaoJogador != null)
+                {
+                    animacaoJogador.movimentoAutomatico = false;
+                }
+
+                // Mostra as cartas e a seta.
                 if (ControleEntrega.instancia != null)
                 {
                     ControleEntrega.instancia.MostrarCartasESeta();
@@ -86,7 +93,7 @@ public class MovimentoCarteiro : MonoBehaviour
                     Debug.LogError("Não existe um ControleEntrega ativo!");
                 }
 
-                // Vira o carteiro e inicia sua saída da cena.
+                // Carteiro vira e sai da cena.
                 spriteRenderer.flipX = !spriteRenderer.flipX;
                 saindo = true;
             }
@@ -108,7 +115,6 @@ public class MovimentoCarteiro : MonoBehaviour
 
     public void ClicarIconeAjuda()
     {
-        // Esconde o ícone e inicia o diálogo configurado.
         iconeAjuda.SetActive(false);
         iniciouDialogo = true;
 

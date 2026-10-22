@@ -1,41 +1,51 @@
+
 using UnityEngine;
 using System.Collections;
 
 public class HelicopteroFase2 : MonoBehaviour
 {
     [Header("Movimento")]
-
     public Transform pontoParada;
     public float velocidadeEntrada = 4f;
 
     [Header("Sobrevoo")]
-
     public float distanciaSobrevoo = 0.15f;
     public float velocidadeSobrevoo = 2f;
 
     [Header("Ataque")]
-
     public Transform pontoBomba;
     public GameObject prefabBomba;
-
     public Transform jogador;
     public GameObject marcadorPerigo;
+
     public float tempoAntesDoAlvo = 1f;
     public float tempoMarcando = 0.8f;
     public float tempoAntesAtaque = 0.5f;
+    public float intervaloAtaques = 2f;
 
     private bool chegou = false;
-    private bool ataqueIniciado = false;
-
     private Vector3 posicaoSobrevoo;
     private float posicaoYMarcador;
 
-    void Start()
+    void Awake()
     {
-        marcadorPerigo.SetActive(false);
-
-        // Guarda a altura do marcador no chão.
         posicaoYMarcador = marcadorPerigo.transform.position.y;
+        marcadorPerigo.SetActive(false);
+    }
+
+    void OnEnable()
+    {
+        chegou = false;
+    }
+
+    void OnDisable()
+    {
+        StopAllCoroutines();
+
+        if (marcadorPerigo != null)
+        {
+            marcadorPerigo.SetActive(false);
+        }
     }
 
     void Update()
@@ -47,12 +57,6 @@ public class HelicopteroFase2 : MonoBehaviour
         }
 
         Sobrevoar();
-
-        if (!ataqueIniciado)
-        {
-            ataqueIniciado = true;
-            StartCoroutine(PrepararAtaque());
-        }
     }
 
     void EntrarNaTela()
@@ -62,9 +66,10 @@ public class HelicopteroFase2 : MonoBehaviour
         if (Vector3.Distance(transform.position, pontoParada.position) < 0.02f)
         {
             transform.position = pontoParada.position;
-
-            chegou = true;
             posicaoSobrevoo = transform.position;
+            chegou = true;
+
+            StartCoroutine(AtacarContinuamente());
         }
     }
 
@@ -75,16 +80,24 @@ public class HelicopteroFase2 : MonoBehaviour
         transform.position = new Vector3(posicaoSobrevoo.x, posicaoSobrevoo.y + movimentoY, posicaoSobrevoo.z);
     }
 
+    IEnumerator AtacarContinuamente()
+    {
+        while (true)
+        {
+            yield return StartCoroutine(PrepararAtaque());
+            yield return new WaitForSeconds(intervaloAtaques);
+        }
+    }
+
     IEnumerator PrepararAtaque()
     {
-        // Dá um pequeno tempo depois que o helicóptero chega.
         yield return new WaitForSeconds(tempoAntesDoAlvo);
 
         marcadorPerigo.SetActive(true);
 
         float tempo = 0f;
 
-        // Durante um tempo, o marcador acompanha a posição horizontal de Maxwell.
+        // O marcador acompanha Maxwell antes de travar a mira.
         while (tempo < tempoMarcando)
         {
             tempo += Time.deltaTime;
@@ -94,7 +107,7 @@ public class HelicopteroFase2 : MonoBehaviour
             yield return null;
         }
 
-        // Agora o alvo fica travado no lugar.
+        // O alvo para de acompanhar Maxwell.
         yield return new WaitForSeconds(tempoAntesAtaque);
 
         SoltarBomba();
@@ -102,17 +115,17 @@ public class HelicopteroFase2 : MonoBehaviour
 
     void SoltarBomba()
     {
-       Vector3 destino = marcadorPerigo.transform.position;
+        Vector3 destino = marcadorPerigo.transform.position;
 
-       GameObject bomba = Instantiate(prefabBomba, pontoBomba.position, Quaternion.identity);
+        GameObject bomba = Instantiate(prefabBomba, pontoBomba.position, Quaternion.identity);
 
-       BombaFase2 bombaFase2 = bomba.GetComponent<BombaFase2>();
+        BombaFase2 scriptBomba = bomba.GetComponent<BombaFase2>();
 
-       if (bombaFase2 != null)
-       {
-           bombaFase2.ConfigurarDestino(destino);
-       }
+        if (scriptBomba != null)
+        {
+            scriptBomba.ConfigurarDestino(destino);
+        }
 
-       marcadorPerigo.SetActive(false);
-   }
+        marcadorPerigo.SetActive(false);
+    }
 }
