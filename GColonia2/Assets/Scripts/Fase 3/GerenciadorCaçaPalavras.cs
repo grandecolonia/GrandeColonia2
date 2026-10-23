@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GerenciadorCaçaPalavras : MonoBehaviour
 {
@@ -346,6 +347,7 @@ public class GerenciadorCaçaPalavras : MonoBehaviour
         if (palavrasEncontradas.Count == palavras.Length)
         {
             Debug.Log("TODAS AS PALAVRAS FORAM ENCONTRADAS!");
+            SceneManager.LoadScene("21_Cutscene04");
         }
     }
 }

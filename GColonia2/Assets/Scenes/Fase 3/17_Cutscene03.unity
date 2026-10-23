@@ -670,52 +670,129 @@ MonoBehaviour:
   textoInicial: {fileID: 1731504127}
   imagemInicial: {fileID: 1078487754}
   etapas:
-  - texto: "J\xE9ssica:\nFicamos felizes que tenha vindo.\n\nMaxwell: \nVindo aonde?!
-      E quem s\xE3o \u201Cvoc\xEAs\u201D?"
-    imagem: {fileID: 21300000, guid: f1f898ecb93b84d45956b7ca7d704224, type: 3}
+  - texto: "J\xE9ssica: Ficamos felizes que tenha vindo."
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "J\xE9ssica:\nSomos os Rebeldes.\n\nMaxwell: \nOs terroristas que o guardi\xE3o
-      mencionou!\n\nJ\xE9ssica: \n\u201CTerroristas\u201D... \xC9 assim que nos chamam.\n\nMaxwell:
-      \nVoc\xEAs est\xE3o ligados \xE0 explos\xE3o! Eu devia ter esperado o guarda.\n\nJ\xE9ssica:
-      \nE seria levado para a tortura, como os outros.\n\nMaxwell: \nEu sou inocente!
-      Quem deveria estar preso s\xE3o voc\xEAs!"
-    imagem: {fileID: 21300000, guid: 2cd09237c002cb44482d888f8764dc99, type: 3}
-    som: {fileID: 0}
-    esperaDepoisSom: 0
-  - texto: "Rebeldes:\nEle n\xE3o vai nos ajudar...\n\nRebeldes:\nMatem-no antes
-      que seja tarde!\n\nRebeldes:\nEle n\xE3o consegue enxergar a verdade!\n\nRebeldes:\nComo
-      pode dizer uma coisa dessas?!"
-    imagem: {fileID: 21300000, guid: 2afbfaddd6cfd5a42bcc4922d4598eeb, type: 3}
-    som: {fileID: 0}
-    esperaDepoisSom: 0
-  - texto: "J\xE9ssica: \nInocente? Voc\xEAs realmente n\xE3o enxergam o que o regime
-      est\xE1 fazendo? Est\xE3o tirando nossos direitos!\n\nMaxwell: \nEles est\xE3o
-      controlando o caos enquanto a princesa n\xE3o pode assumir.\n\nJ\xE9ssica:
-      \nEla nunca assumir\xE1.\n\nMaxwell: \nComo assim?"
-    imagem: {fileID: 21300000, guid: 2cd09237c002cb44482d888f8764dc99, type: 3}
-    som: {fileID: 0}
-    esperaDepoisSom: 0
-  - texto: "J\xE9ssica:\r\nApenas leia.\r\n\r\nMaxwell:\r\nIsso \xE9 inacredit\xE1vel...\r\n\r\nJ\xE9ssica:\r\nO
-      regime esconde a verdade da colmeia. Retiraram direitos dos opositores e assumiram
-      o controle das regi\xF5es.\r\n\r\nJ\xE9ssica:\r\nEm\xEDlio e Seiva perseguem
-      suspeitos e usam a viol\xEAncia at\xE9 contra inocentes.\r\n\r\nMaxwell:\r\nDisseram
-      que era para nossa prote\xE7\xE3o... E a princesa?\r\n\nJ\xE9ssica:  \r\nEst\xE1
-      segura, por enquanto. Mas precisamos impedir o Ato 3.\r\n\r\nMaxwell:\r\nO
-      que \xE9 o Ato 3?\r\n\r\nLaura:  \r\nUma falsa democracia. O povo poder\xE1
-      votar, mas apenas aliados dos militares poder\xE3o concorrer.\r\n\r\nLaura:\r\nAssim,
-      far\xE3o parecer que a pr\xF3pria colmeia rejeitou a princesa.\r\n\r\nMaxwell:\r\nN\xE3o
-      podemos permitir isso!\r\n\r\n**J\xE9ssica:**  \r\nPrecisamos entrar na colmeia
-      e abrir o port\xE3o para os Rebeldes.\r\n\r\nMaxwell:\r\nAcho que sei como."
-    imagem: {fileID: 21300000, guid: 37ec8d81b1a7248479ba268ccb8917f4, type: 3}
-    som: {fileID: 0}
-    esperaDepoisSom: 0
-  - texto: 
+  - texto: "Maxwell: Vindo aonde?! E quem s\xE3o \u201Cvoc\xEAs\u201D?"
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
   - texto: 
-    imagem: {fileID: 21300000, guid: c972557a3bd3b374e9c2e7e8b71e16f6, type: 3}
+    imagem: {fileID: 21300000, guid: f1f898ecb93b84d45956b7ca7d704224, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Somos os Rebeldes."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: \u201CTerroristas\u201D... \xC9 assim que nos chamam."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: Voc\xEAs est\xE3o ligados \xE0 explos\xE3o! Eu devia ter esperado
+      o guarda."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: E seria levado para a tortura, como os outros."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: Eu sou inocente! Quem deveria estar preso s\xE3o voc\xEAs!"
+    imagem: {fileID: 21300000, guid: 2cd09237c002cb44482d888f8764dc99, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Rebeldes: Ele n\xE3o vai nos ajudar..."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 'Rebeldes: Matem-no antes que seja tarde!'
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Rebeldes: Ele n\xE3o consegue enxergar a verdade!"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 'Rebeldes: Como pode dizer uma coisa dessas?!'
+    imagem: {fileID: 21300000, guid: 2afbfaddd6cfd5a42bcc4922d4598eeb, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Inocente? Voc\xEAs realmente n\xE3o enxergam o que o regime
+      est\xE1 fazendo? Est\xE3o tirando nossos direitos!"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: Eles est\xE3o controlando o caos enquanto a princesa n\xE3o
+      pode assumir."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Ela nunca assumir\xE1."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 'Maxwell: Como assim?'
+    imagem: {fileID: 21300000, guid: 37ec8d81b1a7248479ba268ccb8917f4, type: 3}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Apenas leia."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: Isso \xE9 inacredit\xE1vel..."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: O regime esconde a verdade da colmeia. Retiraram direitos
+      dos opositores e assumiram o controle das regi\xF5es."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Em\xEDlio e Seiva perseguem suspeitos e usam a viol\xEAncia
+      at\xE9 contra inocentes."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: Disseram que era para nossa prote\xE7\xE3o... E a princesa?"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Est\xE1 segura, por enquanto. Mas precisamos impedir o Ato
+      3."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: O que \xE9 o Ato 3?"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Uma falsa democracia. O povo poder\xE1 votar, mas apenas
+      aliados dos militares poder\xE3o concorrer."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Assim, far\xE3o parecer que a pr\xF3pria colmeia rejeitou
+      a princesa."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "Maxwell: N\xE3o podemos permitir isso!"
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: "J\xE9ssica: Precisamos entrar na colmeia e abrir o port\xE3o para os
+      Rebeldes."
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 'Maxwell: Acho que sei como.'
+    imagem: {fileID: 0}
+    som: {fileID: 0}
+    esperaDepoisSom: 0
+  - texto: 
+    imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
   - texto: 

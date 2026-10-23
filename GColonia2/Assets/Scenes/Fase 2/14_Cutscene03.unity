@@ -303,7 +303,7 @@ MonoBehaviour:
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: "Laura:\nMeu nome \xE9 Laura, qual \xE9 o seu?"
+  - texto: "J\xE9ssica:\nMeu nome \xE9 J\xE9ssica, qual \xE9 o seu?"
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
@@ -312,11 +312,9 @@ MonoBehaviour:
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0
-  - texto: 'Laura:
-
-      Uma coisa de cada vez, primeiro precisamos sair daqui,
-      vamos no momento que os guardas estiverem desatentos. Eu tenho um esconderijo,
-      temos que fugir com cuidado!'
+  - texto: "J\xE9ssica:\nUma coisa de cada vez, primeiro precisamos sair daqui, vamos
+      no momento que os guardas estiverem desatentos. Eu tenho um esconderijo, temos
+      que fugir com cuidado!"
     imagem: {fileID: 0}
     som: {fileID: 0}
     esperaDepoisSom: 0

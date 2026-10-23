@@ -58,7 +58,7 @@ public class ControleEntrega : MonoBehaviour
 
     [Header("Vitória")]
 
-    public PainelVitoria painelVitoria;
+    public GameObject painelVitoria;
 
     private bool vitoriaMostrada = false;
 
@@ -86,7 +86,7 @@ public class ControleEntrega : MonoBehaviour
         textoTempo.gameObject.SetActive(false);
         limitevoltar.SetActive(false);
         menuCartas.SetActive(false);
-        painelVitoria.gameObject.SetActive(false);
+        painelVitoria.SetActive(false);
     }
 
     void Update()
@@ -325,8 +325,16 @@ public class ControleEntrega : MonoBehaviour
 
         audioSource.PlayOneShot(somVitoria);
 
-        // Mostra e inicia a animação do painel de vitória.
-        painelVitoria.gameObject.SetActive(true);
-        painelVitoria.Iniciar();
+        painelVitoria.SetActive(true);
     }
+
+    public void AvancarFase()
+{
+    Time.timeScale = 1f;
+
+    instancia = null;
+    Destroy(gameObject);
+
+    SceneManager.LoadScene("12_Cutscene02");
+}
 }

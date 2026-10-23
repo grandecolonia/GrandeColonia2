@@ -41,9 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu & Fase 1/11_LadoEsq.unity
     guid: 64273837dafcdf64eabf0b0fc713271a
-  - enabled: 0
-    path: Assets/Scenes/12_Cutscene02.unity
-    guid: a8a1eb2564bd9b742a62e6bddf048657
+  - enabled: 1
+    path: Assets/Scenes/Fase 2/12_Cutscene02.unity
+    guid: bb69c58d97fef4a4eb9e318160427fa0
   - enabled: 1
     path: Assets/Scenes/Fase 2/13_Cidade.unity
     guid: ffcfbadce4ae6a141aeaa1592611a700
@@ -68,6 +68,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase 3/20_CacaPalavras.unity
     guid: 4a0711831c89dd040b49b28091fca8a2
+  - enabled: 1
+    path: Assets/Scenes/Fase 3/21_Cutscene04.unity
+    guid: 87ca11afb936e234dbf9831c5417b591
+  - enabled: 1
+    path: Assets/Scenes/Fase 4/22_Cutscene05.unity
+    guid: e2913dedae4e70342bbf604e96711523
+  - enabled: 1
+    path: Assets/Scenes/Fase 4/23_Fase4.unity
+    guid: 6f51a5c55a24cee4dba2104ceedf6a00
   - enabled: 1
     path: Assets/Scenes/Fase 4/24_Cutscene06.unity
     guid: 4b33267d99b297f41a406e6f1e3ae809

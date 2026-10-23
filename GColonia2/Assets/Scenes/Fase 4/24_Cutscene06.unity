@@ -903,7 +903,7 @@ MonoBehaviour:
     som: {fileID: 0}
     esperaDepoisSom: 0
   avancarCutscene: {fileID: -7170355178394980583, guid: 5b667034be5e84d4b80c0c529faf6857, type: 3}
-  cenaDestino: 23_Fase4
+  cenaDestino: 
 --- !u!4 &1747863705
 Transform:
   m_ObjectHideFlags: 0
