@@ -1219,14 +1219,14 @@ RectTransform:
   m_GameObject: {fileID: 857250115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.83, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1475839143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 741, y: 241}
+  m_AnchoredPosition: {x: 741, y: -125}
   m_SizeDelta: {x: 290.3, y: 404.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &938001915
@@ -1638,6 +1638,7 @@ MonoBehaviour:
   menuCartas: {fileID: 18396891}
   corCaixaAtual: 
   entregaComecou: 0
+  mover: {fileID: -3660487555861939020, guid: 5b667034be5e84d4b80c0c529faf6857, type: 3}
   painelDerrota: {fileID: 250857234}
   cenaTentarNovamente: 06_Fase1
   cenaMenu: 02_Menu
@@ -2758,17 +2759,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.035824656, y: 0}
+  m_Offset: {x: -0.33154845, y: -0.5633035}
   m_SpriteTilingProperty:
-    border: {x: 3.36, y: 0.19, z: 3.4299998, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.35, y: 13.86}
+    oldSize: {x: 3.5800002, y: 6.790071}
     newSize: {x: 11.35, y: 13.86}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.542882, y: 13.86}
+  m_Size: {x: 2.9264426, y: 5.8757906}
   m_EdgeRadius: 0
 --- !u!114 &1868223482
 MonoBehaviour:
@@ -2787,6 +2788,7 @@ MonoBehaviour:
   sistemadialogo: {fileID: 1958287563}
   dialogo: {fileID: 11400000, guid: 54074414dbc4b7b49b102e65d8cabb12, type: 2}
   spriteRenderer: {fileID: 1868223483}
+  animator: {fileID: 1868223485}
   iconeAjuda: {fileID: 857250115}
   jogador: {fileID: 461196173}
   iconeCartas: {fileID: 2034440150}
@@ -2802,6 +2804,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8767350162948725645, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
   m_PrefabInstance: {fileID: 8445793620009383176}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1868223485
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868223477}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a331aa7e57f0f9c4a8440d52c2970e0e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1958287563 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2920138368867053247, guid: 55425ec006b882f4092b312adba733f1, type: 3}
@@ -3346,6 +3370,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1584724479500867689, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584724479500867689, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6700277329687750442, guid: 0b75c0df7e4b1104da8e3696ff7d2cc9, type: 3}
+    - target: {fileID: 1584724479500867689, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -3355,11 +3387,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8767350162948725645, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3524738
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8767350162948725645, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.27522936
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8767350162948725645, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3417,6 +3449,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2951302411784039409, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1868223480}
+    - targetCorrespondingSourceObject: {fileID: 2951302411784039409, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868223485}
   m_SourcePrefab: {fileID: 100100000, guid: cf0c26b7ff8d22d42b3c9087edb1a434, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

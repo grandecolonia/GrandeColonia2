@@ -728,6 +728,7 @@ MonoBehaviour:
   tempoInicial: 3
   intervaloMinimo: 4
   intervaloMaximo: 7
+  pausarSpawn: 0
 --- !u!1 &735401345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1326,8 @@ MonoBehaviour:
   tempoMarcando: 0.8
   tempoAntesAtaque: 0.5
   intervaloAtaques: 2
+  spawnGuardas: {fileID: 712172056}
+  intervaloSeguranca: 0.5
 --- !u!1 &1314765343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1622,8 @@ MonoBehaviour:
   camadaChao:
     serializedVersion: 2
     m_Bits: 2048
+  permitirPuloDuplo: 1
+  forcaSegundoPulo: 10
   animator: {fileID: 42624132}
 --- !u!70 &1708233206
 CapsuleCollider2D:

@@ -80,6 +80,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase 4/24_Cutscene06.unity
     guid: 4b33267d99b297f41a406e6f1e3ae809
+  - enabled: 1
+    path: Assets/Scenes/Fase 4/FinaldoJogo.unity
+    guid: d9155afed0ec9a840a334a2a865aa798
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

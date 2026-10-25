@@ -127,3 +127,4 @@ MonoBehaviour:
   animator: {fileID: 8898485324311595614}
   raioExplosao: 1
   duracaoExplosao: 0.6
+  evitarConflitoGuardas: 0
